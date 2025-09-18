@@ -1,0 +1,5 @@
+message,predicted,correct
+"info@newsletter.com,Weekly news digest,Here are the top stories of the week.,0,",0,0
+"support@bank.com,Verify your account,We need you to verify your account immediately.,1,http://bank.verify.example
+",1,1
+"sales@partner.com,Quarterly report,Attached is the quarterly report for your review.,0,",0,0

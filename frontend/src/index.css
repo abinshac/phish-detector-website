@@ -1,0 +1,35 @@
+/* import Google font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* custom neon title */
+.neon-title {
+  font-family: "Poppins", system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  font-weight: 800;
+  font-size: 3.25rem; /* adjust to taste */
+  text-align: center;
+  color: white;
+  letter-spacing: 1px;
+  text-transform: none;
+  /* layered shadow for neon / outline */
+  text-shadow:
+    -2px -2px 0 #ff66cc,
+    2px -2px 0 #66d9ff,
+    0 2px 0 #ffffff,
+    0 10px 30px rgba(102, 217, 255, 0.12),
+    0 6px 15px rgba(255, 102, 204, 0.08);
+  /* outline like in your screenshot */
+  -webkit-text-stroke: 2px rgba(0,0,0,0.2);
+}
+
+/* make sure inputs are not squashed on small screens */
+input, button { font-family: inherit; }
+
+/* remove focus outlines if you prefer */
+input:focus, button:focus { outline: none; }
+
